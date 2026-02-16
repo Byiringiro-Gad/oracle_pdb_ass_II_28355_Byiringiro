@@ -75,7 +75,7 @@ SHOW PDBS;
 
 ### PDB Successfully Created
 
-![PDB Creation Evidence](screenshots/by_pdbs(creation).png)
+![PDB Creation Evidence](screenshots/PDB%20creation/by_pdbs(creation).png)
 
 
 ## Step 6 – Verify Open Mode
@@ -86,9 +86,9 @@ SELECT name, open_mode FROM v$pdbs;
 
 ### PDB Open Mode (READ WRITE)
 
-![PDB Creation Evidence](screenshots/by_pdbs(openstate1).png)
+![PDB Creation Evidence](screenshots/PDB%20creation/by_pdbs(openstate1).png)
 
-![PDB Open Mode Evidence](screenshots/by_pdbs(open_state).png)
+![PDB Open Mode Evidence](screenshots/PDB%20creation/by_pdbs(openstate1).pngby_pdbs(open_state).png)
 
 Verification confirms:
 - Correct PDB name
@@ -140,7 +140,7 @@ SHOW PDBS;
 
 ### Temporary PDB Created
 
-![Temporary PDB Created](screenshots/by_to_delete(creation).png)
+![Temporary PDB Created](screenshots/PDB%20deletion/by_to_delete(creation).png)
 
 
 ## Step 3 – Delete Temporary PDB Completely
@@ -158,7 +158,7 @@ SHOW PDBS;
 
 ### Temporary PDB Deleted
 
-![Temporary PDB Deleted](screenshots/by_to_delete(delection).png)
+![Temporary PDB Deleted](screenshots/PDB%20deletion/by_to_delete(delection).png)
 
 Verification confirms complete removal.
 
@@ -179,10 +179,10 @@ Dashboard confirms:
 
 OEM Dashboard(loged in as sys)
 
-![OEM Dashboard Evidence](screenshots/OEM_HOME(logged_in_as_sys).png)
+![OEM Dashboard Evidence](screenshots/OEM%20dashboard/OEM_HOME(logged_in_as_sys).png)
 
 OEM Dashboard(loged in as by_pdb_28355)  
-![OEM Dashboard Evidence](screenshots/OEM_HOME(byiringiro_pdbs_28355).png)
+![OEM Dashboard Evidence](screenshots/OEM%20dashboard/OEM_HOME(byiringiro_pdbs_28355).png)
 
 ---
 
