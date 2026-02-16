@@ -5,6 +5,11 @@
   
 ## Individual Assignment II – ORACLE PLUGGABLE DATABASE MANAGEMENT
 
+Repository Link: [\[GitHub URL\]](https://github.com/Byiringiro-Gad/oracle_pdb_ass_II_28355_Byiringiro)
+PDB Name Created: by_pdb_28355
+Issues Encountered: No
+
+https://github.com/Byiringiro-Gad/oracle_pdb_ass_II_28355_Byiringiro
 
 # 1. Assignment Objective
 
@@ -44,7 +49,7 @@ sqlplus / as sysdba
 ## Step 2 – Created the PDB
 
 ```sql
-CREATE PLUGGABLE DATABASE By_pdb_28355
+CREATE PLUGGABLE DATABASE by_pdb_28355
 ADMIN USER byiringiro_plsqlauca_28355 IDENTIFIED BY auca123
 FILE_NAME_CONVERT = ('pdbseed','by_pdb_28355');
 ```
@@ -54,7 +59,7 @@ FILE_NAME_CONVERT = ('pdbseed','by_pdb_28355');
 ## Step 3 – Open the PDB
 
 ```sql
-ALTER PLUGGABLE DATABASE By_pdb_28355 OPEN;
+ALTER PLUGGABLE DATABASE by_pdb_28355 OPEN;
 ```
 
 ---
@@ -62,7 +67,7 @@ ALTER PLUGGABLE DATABASE By_pdb_28355 OPEN;
 ## Step 4 – Save the PDB State
 
 ```sql
-ALTER PLUGGABLE DATABASE By_pdb_28355 SAVE STATE;
+ALTER PLUGGABLE DATABASE by_pdb_28355 SAVE STATE;
 ```
 
 ---
@@ -101,16 +106,16 @@ Verification confirms:
 ## Switch to the Created PDB
 
 ```sql
-ALTER SESSION SET CONTAINER = By_pdb_28355;
+ALTER SESSION SET CONTAINER = by_pdb_28355;
 ```
 
 ## Unlock and Configure User
 
 ```sql
-ALTER USER Byiringiro_plsqlauca_28355 ACCOUNT UNLOCK;
-ALTER USER Byiringiro_plsqlauca_28355 DEFAULT TABLESPACE USERS;
-ALTER USER Byiringiro_plsqlauca_28355 QUOTA UNLIMITED ON USERS;
-GRANT CONNECT, RESOURCE, CREATE SESSION TO Byiringiro_plsqlauca_28355;
+ALTER USER byiringiro_plsqlauca_28355 ACCOUNT UNLOCK;
+ALTER USER byiringiro_plsqlauca_28355 DEFAULT TABLESPACE USERS;
+ALTER USER byiringiro_plsqlauca_28355 QUOTA UNLIMITED ON USERS;
+GRANT CONNECT, RESOURCE, CREATE SESSION TO byiringiro_plsqlauca_28355;
 ```
 
 
@@ -129,7 +134,7 @@ CREATE PLUGGABLE DATABASE By_to_delete_pdb_28355
 ADMIN USER temp IDENTIFIED BY auca123
 FILE_NAME_CONVERT = ('pdbseed','By_to_delete_pdb_28355');
 
-ALTER PLUGGABLE DATABASE By_to_delete_pdb_28355 OPEN;
+ALTER PLUGGABLE DATABASE by_to_delete_pdb_28355 OPEN;
 ```
 
 ### Verify Temporary PDB Exists
@@ -146,8 +151,8 @@ SHOW PDBS;
 ## Step 3 – Delete Temporary PDB Completely
 
 ```sql
-ALTER PLUGGABLE DATABASE By_to_delete_pdb_28355 CLOSE IMMEDIATE;
-DROP PLUGGABLE DATABASE By_to_delete_pdb_28355 INCLUDING DATAFILES;
+ALTER PLUGGABLE DATABASE by_to_delete_pdb_28355 CLOSE IMMEDIATE;
+DROP PLUGGABLE DATABASE by_to_delete_pdb_28355 INCLUDING DATAFILES;
 ```
 
 ### Confirm Deletion
