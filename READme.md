@@ -75,8 +75,6 @@ SHOW PDBS;
 
 ### PDB Successfully Created
 
-![PDB Creation Evidence](screenshots/by_pdbs(openstate1).png)
-
 ![PDB Creation Evidence](screenshots/by_pdbs(creation).png)
 
 
@@ -88,7 +86,7 @@ SELECT name, open_mode FROM v$pdbs;
 
 ### PDB Open Mode (READ WRITE)
 
-
+![PDB Creation Evidence](screenshots/by_pdbs(openstate1).png)
 
 ![PDB Open Mode Evidence](screenshots/by_pdbs(open_state).png)
 
