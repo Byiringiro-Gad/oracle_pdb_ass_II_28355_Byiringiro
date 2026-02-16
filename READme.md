@@ -88,7 +88,7 @@ SELECT name, open_mode FROM v$pdbs;
 
 ![PDB Creation Evidence](screenshots/PDB%20creation/by_pdbs(openstate1).png)
 
-![PDB Open Mode Evidence](screenshots/PDB%20creation/by_pdbs(openstate1).pngby_pdbs(open_state).png)
+![PDB Open Mode Evidence](screenshots/PDB%20creation/by_pdbs(open_state).png)
 
 Verification confirms:
 - Correct PDB name
@@ -194,9 +194,9 @@ OEM Dashboard(loged in as by_pdb_28355)
 | Invalid credentials | User not unlocked | Account unlocked and password reset |
 | Listener connection issue | Service configuration mismatch | Verified using `lsnrctl status` |
 
----
 
-# 8. Conclusion
+
+# Conclusion
 
 After this assignment I understand:
 
