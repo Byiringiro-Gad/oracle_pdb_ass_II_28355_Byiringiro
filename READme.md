@@ -5,11 +5,10 @@
   
 ## Individual Assignment II – ORACLE PLUGGABLE DATABASE MANAGEMENT
 
-Repository Link: [\[GitHub URL\]](https://github.com/Byiringiro-Gad/oracle_pdb_ass_II_28355_Byiringiro)
-PDB Name Created: by_pdb_28355
-Issues Encountered: No
+Repository Link: https://github.com/Byiringiro-Gad/oracle_pdb_ass_II_28355_Byiringiro    
+PDB Name Created: by_pdb_28355  
+Issues Encountered: No  
 
-https://github.com/Byiringiro-Gad/oracle_pdb_ass_II_28355_Byiringiro
 
 # 1. Assignment Objective
 
