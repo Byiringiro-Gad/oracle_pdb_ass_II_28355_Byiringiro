@@ -1,7 +1,7 @@
 ## Byiringiro Gad               28355  
 
-## Course Database Development with PL/SQL (INSY 8311)
-## Instructor Eric Maniraguha  
+## Course: Database Development with PL/SQL (INSY 8311)
+## Instructor: Eric Maniraguha  
   
 ## Individual Assignment II – ORACLE PLUGGABLE DATABASE MANAGEMENT
 
@@ -45,8 +45,8 @@ sqlplus / as sysdba
 
 ```sql
 CREATE PLUGGABLE DATABASE By_pdb_28355
-ADMIN USER Byiringiro_plsqlauca_28355 IDENTIFIED BY 1234
-FILE_NAME_CONVERT = ('pdbseed','By_pdb_28355');
+ADMIN USER byiringiro_plsqlauca_28355 IDENTIFIED BY auca123
+FILE_NAME_CONVERT = ('pdbseed','by_pdb_28355');
 ```
 
 ---
@@ -75,6 +75,8 @@ SHOW PDBS;
 
 ### PDB Successfully Created
 
+![PDB Creation Evidence](screenshots/by_pdbs(openstate1).png)
+
 ![PDB Creation Evidence](screenshots/by_pdbs(creation).png)
 
 
@@ -84,7 +86,9 @@ SHOW PDBS;
 SELECT name, open_mode FROM v$pdbs;
 ```
 
-### Evidence – PDB Open Mode (READ WRITE)
+### PDB Open Mode (READ WRITE)
+
+
 
 ![PDB Open Mode Evidence](screenshots/by_pdbs(open_state).png)
 
@@ -196,7 +200,7 @@ OEM Dashboard(loged in as by_pdb_28355)
 
 # 8. Conclusion
 
-This assignment demonstrates practical understanding of:
+After this assignment I understand:
 
 - Oracle Multitenant Architecture
 - PDB creation and configuration
